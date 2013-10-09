@@ -1,0 +1,123 @@
+body {
+	background-color: #3a1e1a;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+#container{
+	width: 95%;
+	margin: 0 auto;
+	/* background-color: #a4544a; */
+}
+
+#eatery_select{
+	padding: 0;
+	list-style: none;
+}
+
+#eatery_select li, #time_select li{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 1em 0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, .5);
+	font-weight: bold;
+}
+
+#time_select{
+	padding: 0;
+	list-style: none;
+}
+
+#eatery_select li{
+	width: 49.3%;
+}
+
+#eatery_select a{
+	padding: 1em 0;
+	width: 100%;
+}
+
+#time_select li{
+	width: 32.4%;
+}
+
+#eatery_select li:hover, #time_select li:hover{
+	background-color: #a4544a;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4c2722), to(#6f3932));
+	/* background-image: -webkit-linear-gradient( #4c2722, #6f3932); */
+}
+
+.button {
+	background-color: #6f3932;
+	background: -webkit-gradient(linear, left top, left bottom, from(#A4544A), to(#6f3932));
+	/* background-image: -webkit-linear-gradient( #A4544A, #6f3932); */
+}
+
+.button_down{
+	background-color: #a4544a;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4c2722), to(#6f3932));
+	/* background-image: -webkit-linear-gradient( #4c2722, #6f3932); */
+}
+
+ul {
+	list-style: none;
+}
+
+#content{
+	border-top: 2px solid rgb(192,4,4);
+}
+
+#content ul{
+	background-color: #6f3932;
+	padding: .75em;
+	margin-top: 0;
+	border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, .5);
+}
+
+#content li{
+	text-align: center;
+	background-color: #A4544A;
+	margin: 1px 0 0 0;
+	padding: 3px 0 3px 0;
+	border-radius: 5px;
+}
+
+h4{
+	background: -webkit-gradient(linear, left top, left bottom, from(#81423A), to(#6f3932));
+	/* background-image: -webkit-linear-gradient( #81423A, #6f3932); */
+	text-align: center;
+	margin-bottom: 1px;
+	padding: .5em 0 .5em 0;
+	border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+
+	font-size: 1.3em;
+}
+
+#date {
+	font-size: 1.2em;
+}
+
+.button{
+	font-size: 1.3em;
+}
+
+.loader img{
+	display: block;
+	margin: 0 auto;
+}
+
+#date{
+	margin: 0;
+	text-align: center;
+}

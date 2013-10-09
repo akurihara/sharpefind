@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrownTheme" parent="android:Theme">
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowBackground">@color/brown</item>
+	    <item name="android:listViewStyle">@style/MyListView</item>
+	    <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+	    <item name="android:tabWidgetStyle">@style/MyTabWidget</item>
+  	</style>
+ 
+	<style name="MyListView" parent="@android:style/Widget.ListView">
+	 	  <item name="android:background">@color/brown</item>
+	      <item name="android:cacheColorHint">@color/brown</item>
+	      <item name="android:divider">@color/grey</item>
+	</style>
+  
+  	<style name="MyTextViewStyle" parent="@android:style/Widget.TextView">
+	    <item name="android:textColor">@color/white</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+  	<style name="MyTabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:textAppearance">@style/MyTabWidgetText</item>
+    </style>
+
+    <style name="MyTabWidgetText" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">14pt</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/brown</item>
+    </style>
+    
+</resources>

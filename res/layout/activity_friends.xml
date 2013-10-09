@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@color/light_brown">
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_gravity="center"
+  		>
+        
+         <TextView
+        android:id="@+id/friends_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refreshing Friend List ..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="125dip" />
+        
+        <ProgressBar
+        android:id="@+id/friends_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dip" />
+    </LinearLayout>
+
+    <eu.erikw.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_listview"
+        android:background="@color/light_brown"
+	    android:cacheColorHint="@color/light_brown"
+	    android:divider="@color/dark_grey"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:dividerHeight="1px"
+    />
+    
+</LinearLayout>

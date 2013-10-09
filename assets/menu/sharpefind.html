@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/sharpefind.css" type="text/css" media="all"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="javascript/sharpefind.js" type="text/javascript"></script>
+        <script src="javascript/google-analytics.js" type="text/javascript"></script>
+        
+        <link rel="apple-touch-icon" href="images/icon.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>Sharpefind</title>
+    </head>
+    <body>
+    	<div id="container">
+            <h5 id="date"></h5>
+    		<ul id="eatery_select">
+    			<li id="btn_ratty" class="button" onclick="setEatery('ratty');">Ratty</li>
+    			<li id="btn_vdub" class="button" onclick="setEatery('vdub');">V-Dub</li>
+    		</ul>
+    		<ul id="time_select">
+    			<li id="btn_breakfast" class="button" onclick="setTime('breakfast');">Breakfast</li>
+    			<li id="btn_lunch" class="button" onclick="setTime('lunch');">Lunch</li>
+    			<li id="btn_dinner"class="button" onclick="setTime('dinner');">Dinner</li>
+    		</ul>
+            <div id="content">
+                <div class="ratty breakfast collapsible"><h4>Bistro</h4></div>
+                <div class="ratty breakfast collapsible"><h4>Chef's Corner</h4></div>
+                <div class="ratty breakfast collapsible"><h4>Grill</h4></div>
+                <div class="ratty breakfast collapsible"><h4>Roots & Shoots</h4></div>
+                <div class="ratty lunch collapsible"><h4>Bistro</h4></div>
+                <div class="ratty lunch collapsible"><h4>Chef's Corner</h4></div>
+                <div class="ratty lunch collapsible"><h4>Grill</h4></div>
+                <div class="ratty lunch collapsible"><h4>Roots & Shoots</h4></div>
+                <div class="ratty dinner collapsible"><h4>Bistro</h4></div>
+                <div class="ratty dinner collapsible"><h4>Chef's Corner</h4></div>
+                <div class="ratty dinner collapsible"><h4>Grill</h4></div>
+                <div class="ratty dinner collapsible"><h4>Roots & Shoots</h4></div>
+                <div class="vdub collapsible"><h4>Breakfast</h4></div>
+                <div class="vdub collapsible"><h4>Lunch</h4></div>
+                <div class="vdub collapsible"><h4>Dinner</h4></div>
+            </div>
+    	</div>
+    </body>
+</html>

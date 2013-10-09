@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/bg_header"
+            android:orientation="horizontal" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="left"
+                 android:layout_marginLeft="10dip"
+                 android:scaleType="fitStart"
+                 android:layout_weight="1"
+                 android:src="@drawable/sharpefind_logo_trans" />
+
+             <ImageView
+                 android:id="@+id/imageView2"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:src="@drawable/foursquare_logo" />
+        
+        </LinearLayout>
+
+        <TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+                <TabWidget android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@android:id/tabs"
+                    android:background="@color/light_brown"
+                    android:tabStripEnabled="true">
+                </TabWidget>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@android:id/tabcontent">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tab1">
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tab2"></LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tab3"></LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
+   

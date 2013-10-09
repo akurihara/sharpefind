@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="client_id">LQ0YEBNO30VFG2XXTRYIKYN3VVUSZRAB4KWHEAXZNVTQ1NIZ</string>
+	<string name="callback_url">http://www.google.com</string>
+	<string name="check_in_url">https://api.foursquare.com/v2/checkins/add</string>
+	<string name="self_url">https://api.foursquare.com/v2/users/self?oauth_token=</string>
+	<string name="friends_url">https://api.foursquare.com/v2/users/self/friends?oauth_token=</string>
+	<string name="friend_check_ins_url">https://api.foursquare.com/v2/users/</string>
+
+	<string name="front_cave_id">4f2198ca771617369d04bfeb</string>
+	<string name="back_cave_id">4f21add06d8670bd6cdfc2c6</string>
+
+    <string name="app_name">SharpeFind</string>
+    <string name="time_prompt">How long will you be eating?</string>
+    
+    <string-array name="eateries_id_array">
+    	<item>4b97ecb9f964a520cc1f35e3</item>
+    	<item>4bbf6258006dc9b60f7dfc3f</item>
+    	<item>4bbdc19f8a4fb713364a3d9d</item>
+    	<item>4b89f5cef964a520d65832e3</item>
+    	<item>4bc3279d74a9a593b71bd4f6</item>
+    	<item>4b8c6dd0f964a5206cd032e3</item>
+    </string-array>
+    
+    <string name="ratty_id">4b97ecb9f964a520cc1f35e3</string>
+    
+    <string-array name="sharpe_refectory_array">
+    	<item>Ratty (Front Cave)</item>
+   		<item>Ratty (Back Cave)</item>
+    	<item>Ratty (NW Corner)</item>
+    	<item>Ratty (NE Corner)</item>
+    	<item>Ratty (SW Corner)</item>
+    	<item>Ratty (SE Corner)</item>
+    </string-array>
+    
+       <string-array name="verney_woolley_array">
+    	<item>V-Dub (North Side)</item>
+   		<item>V-Dub (South Side)</item>
+    	<item>V-Dub (Patio)</item>
+    	<item>V-Dub (Counter)</item>
+    </string-array>
+    
+    <string-array name="time_array">
+     	<item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>40 Minutes</item>
+        <item>45 Minutes</item>
+        <item>50 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+    
+    <string-array name="time_value_array">
+     	<item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayout"
+    android:padding="25dip"
+    android:background="@drawable/bg_venues">
+    <TextView
+    	android:text="TextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dip"
+		android:textColor="#ffffff"
+		android:id="@+id/header"/>
+     <TextView
+    	android:text="TextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/header2"
+		android:textColor="#ffffff"
+ 	    android:textStyle="bold"
+ 	    android:textSize="16sp"
+ 	    android:typeface="sans"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:textColor="#ffffff"
+        android:text="@string/time_prompt"
+    />
+    <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/time_prompt"
+    />
+    <TextView
+    	android:layout_width="wrap_content"
+    	android:text="Press the confirmation button below to check in."
+    	android:layout_height="wrap_content"
+    	android:id="@+id/confirm_text"
+    	android:textColor="#ffffff"
+    	android:layout_marginTop="40dip"
+    	/>
+    <Button
+     	android:text="Check In"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_marginTop="10dip"
+   		android:id="@+id/confirm_button" android:width="300dip"/>
+</LinearLayout>
